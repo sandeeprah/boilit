@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boilit"
+version = "0.1.0"
+description = "boiler performance assessment"
+authors = [
+    {name = "Sandeep Raheja", email = "raheja.sandeep@gmail.com"},  
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+
+dependencies = [
+        "agility @git+https://github.com/sandeeprah/agility.git@main",
+        "flask",
+        "dash",
+        "dash-ag-grid",
+        "pandas",
+        "pydantic"
+        
+]

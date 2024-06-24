@@ -1,0 +1,208 @@
+{
+  "meta_input": {
+    "file_name": "Project_Data",
+    "client_name": "",
+    "project_name": "",
+    "project_description": ""
+  },
+  "facility_input": {
+    "name": "Example Facility",
+    "location": {
+      "coordinates": [
+        34.0522,
+        -118.2437
+      ],
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "USA"
+    },
+    "type": "Office",
+    "description": "A multi-story office building located in the heart of the city, featuring modern architecture and sustainable energy solutions.",
+    "number_floors": 5,
+    "gcfa": 20000,
+    "age": 10
+  },
+  "settings_input": {
+    "currencies": {
+      "AED": 0.272,
+      "INR": 0.012,
+      "USD": 1.0,
+      "EUR": 1.08
+    },
+    "units": {
+      "electricity": [
+        "kWh",
+        "MWh",
+        "GWh"
+      ],
+      "water": [
+        "USG",
+        "IG",
+        "lit",
+        "cm"
+      ],
+      "diesel#2": [
+        "USG",
+        "IG",
+        "lit",
+        "cm"
+      ],
+      "LFO": [
+        "USG",
+        "IG",
+        "lit",
+        "cm"
+      ],
+      "HFO": [
+        "USG",
+        "IG",
+        "lit",
+        "cm"
+      ],
+      "district_cooling": [
+        "TRH"
+      ],
+      "district_heating": [
+        "kJ",
+        "Gj",
+        "kCal",
+        "Btu",
+        "MMBtu"
+      ],
+      "fuel_gas": [
+        "scm",
+        "scf"
+      ],
+      "lpg": [
+        "scm",
+        "scf"
+      ]
+    }
+  },
+  "factors": {
+    "rated_hz": 50,
+    "load_factor": [
+      {
+        "equipment_type": "primary_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "secondary_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "tertiary_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "condenser_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "domestic_raw_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "domestic_booster_pump",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "cooling_tower",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "fahu",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "ahu",
+        "factor": 0.8
+      },
+      {
+        "equipment_type": "fcu",
+        "factor": 0.5
+      },
+      {
+        "equipment_type": "package_ac",
+        "factor": 0.584
+      },
+      {
+        "equipment_type": "split_ac",
+        "factor": 0.584
+      },
+      {
+        "equipment_type": "ductable_ac",
+        "factor": 0.584
+      },
+      {
+        "equipment_type": "window_ac",
+        "factor": 0.584
+      },
+      {
+        "equipment_type": "others",
+        "factor": 0.4
+      }
+    ],
+    "sec_factor": [
+      {
+        "compressor_type": "Reciprocating",
+        "factor": 1.4
+      },
+      {
+        "compressor_type": "Screw",
+        "factor": 1.3
+      },
+      {
+        "compressor_type": "Screw(Inverter)",
+        "factor": 1.1
+      }
+    ],
+    "deration_factor": [
+      {
+        "compressor_type": "Reciprocating",
+        "factor": 1.5
+      },
+      {
+        "compressor_type": "Screw",
+        "factor": 1
+      }
+    ],
+    "month_days": {
+      "jan": 31,
+      "feb": 28,
+      "mar": 31,
+      "apr": 30,
+      "may": 31,
+      "jun": 30,
+      "jul": 31,
+      "aug": 31,
+      "sep": 30,
+      "oct": 31,
+      "nov": 30,
+      "dec": 31
+    }
+  },
+  "utility_input": {
+    "rates": [
+      {
+        "type": "electricity",
+        "rate": 0.1,
+        "unit": "kWh"},
+
+      {
+        "type": "water",
+        "rate": 0.1,
+        "unit": "USG"
+      }
+    ],
+    "consumption": []
+  },
+   
+  "equipment_input": {
+    "equipment": [],
+    "operating_data": []
+  },
+  "lighting_input":{
+    "table": []
+  }
+}
